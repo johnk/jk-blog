@@ -1,13 +1,13 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: John Keyes
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Images from Boston, New England, and beyond.
 
 # Your name to show in the footer
-author: Some Person
+author: John Keyes
 
 # --- List of links in the navigation bar --- #
 
@@ -38,10 +38,10 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+#  email: "someone@example.com"
+#  facebook: deanattali
+#  github: daattali
+  twitter: johnkeyes
   rss: true
 #  reddit: yourname
 #  linkedin: daattali
@@ -64,12 +64,12 @@ social-network-links:
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
-  linkedin: true
+  facebook: false
+  linkedin: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "johnkeyes.com"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
@@ -165,7 +165,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
